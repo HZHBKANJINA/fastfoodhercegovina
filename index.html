@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fast food Restoran</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <a href="#" class="logo"><i class="fas fa-utensils"></i>Restoran</a>
+
+
+            <nav class="navbar">
+                <a class="active" href="#home">Početna</a>
+                <a href="#dishes">Ponuda</a>
+                <a href="#about">O nama</a>
+                <a href="#menu">Meni</a>
+                <a href="#review">Ocjene</a>
+                <a href="#order">Narudžbe</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </header>
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="Pretražite ovdje..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+        <section class="home" id="home">
+            <div class="swiper-container home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Pita</span>
+                            <h3>Burek</h3>
+                            <p>Naručite najbolji burek u gradu</p>
+                            <a href="#" class="btn">Naručite</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/Burek-pita.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Roštilj</span>
+                            <h3>Ćevapi</h3>
+                            <p>Naručite najbolje ćevape u gradu</p>
+                            <a href="#" class="btn">Naručite</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/CevabzinicaKorzo2.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Pizza</span>
+                            <h3>Dalmatinska</h3>
+                            <p>Naručite najbolju pizzu u gradu</p>
+                            <a href="#" class="btn">Naručite</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/3b38e0ca-9498-4751-b545-bd38af0d6e22.jpeg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Šnicla</span>
+                            <h3>Bečka Šnicla</h3>
+                            <p>Naručite najbolju Bečku šniclu u gradu</p>
+                            <a href="#" class="btn">Naručite</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/bečka šnicla.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Kebab</span>
+                            <h3>Kebab</h3>
+                            <p>Naručite najbolji kebab u gradu</p>
+                            <a href="#" class="btn">Naručite</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/kebab.jpeg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Burger</span>
+                            <h3>Hamburger</h3>
+                            <p>Naručite najbolju pizzu u gradu</p>
+                            <a href="#" class="btn">Naručite</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/hamburger-with-fries.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">Naša ponuda</h3>
+            <h1 class="heading">Najbolja hrana</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/hamburger-with-fries.jpg" alt="">
+                    <h3>Hamburger</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>5 KM</span>
+                    <a href="#" class="btn">Dodaj u korpu</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images//capriciosa.jpg" alt="">
+                    <h3>Pizza</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>7 KM</span>
+                    <a href="#" class="btn">Dodaj u korpu</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/CevabzinicaKorzo2.jpg" alt="">
+                    <h3>Ćevapi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>6 KM</span>
+                    <a href="#" class="btn">Dodaj u korpu</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/bečka šnicla.jpg" alt="">
+                    <h3>Šnicla</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>10 KM</span>
+                    <a href="#" class="btn">Dodaj u korpu</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/Burek-pita.jpg" alt="">
+                    <h3>Pita</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4 KM</span>
+                    <a href="#" class="btn">Dodaj u korpu</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/kebab.jpeg" alt="">
+                    <h3>Kebab</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>5 KM</span>
+                    <a href="#" class="btn">Dodaj u korpu</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h3 class="sub-heading">O nama</h3>
+            <h1 class="heading">Zašto naš fast food</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="images/fast-food-hercegovina-low-resolution-color-logo.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Najbolja hrana u gradu</h3>
+                    <p>Naručite najbolju hranu.Od ponude izdvajamo Burek,Pizzu,Kebab,Šnicle,Meso s roštilja</p>
+                    <p>Za najbolji provod navratite ili naručite brzu hranu</p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Besplatna dostava</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Lako plaćanje</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>Usluga 24/7</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Nauči više o nama</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">Naša ponuda</h3>
+            <h1 class="heading">Odaberite hranu</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/hamburger-with-fries.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Hamburger</h3>
+                        <p>Hamburger s pomfritom i prilozima po želji</p>
+                        <a href="" class="btn">Dodaj u korpu</a>
+                        <span class="price">5.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/chickenburger.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Chickenburger</h3>
+                        <p>Chickenburger s pomfritom i prilozima po želji</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">5.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/CevabzinicaKorzo2.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Ćevapi</h3>
+                        <p>10 ćevapa u lepinji s lukom i kajmakom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">6.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/pljeskavica.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Pljeskavica</h3>
+                        <p>Pljeskavica u lepinji s lukom i kajmakom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">6.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/5b28e1f47ff254.30644495_sudzukice.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Sudžukice</h3>
+                        <p>Sudžukice s senfom i lukom i prilogom po želji</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">6.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/kombinacija.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Kombinacija</h3>
+                        <p>Kombinacija sudžukica i ćevapa u lepinji s lukom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">8.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/miješano meso.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Miješano Meso</h3>
+                        <p>Ćevapi,pljeskavica,sudžukice,šnicla,kobasice</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">15.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/bečka šnicla.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Bečka Šnicla</h3>
+                        <p>Bečka šnicla s pomfritom i prilogom po želji</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">10.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/Burek-pita.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Burek</h3>
+                        <p>Burek sa sjeckanom teletinom i jogurtom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">4.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/kebab.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Kebab</h3>
+                        <p>Kebab teleći,pileći,miješani,s prilogom po želji</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">5.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/3b38e0ca-9498-4751-b545-bd38af0d6e22.jpeg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Dalmatinska</h3>
+                        <p>Pizza sa pršutom,sirom,rajčicom i bosiljkom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">7.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/capriciosa.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Capriciosa</h3>
+                        <p>Pizza sa šunkom,sirom,gljivama,origanom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">7.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/gggg-min-e1514056168565.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Al Tonno</h3>
+                        <p>Pizza s tunjevino,lukom,sirom,maslinama</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">7.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/Margherita-Pizza.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Margherita</h3>
+                        <p>Pizza sa sirom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">7.00 KM</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/pizza-mexicana-1.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Mexicana</h3>
+                        <p>Pizza s kulenom,čilijem,ljutom paprikom,kukuruzom</p>
+                        <a href="#" class="btn">Dodaj u korpu</a>
+                        <span class="price">7.00 KM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="review" id="review">
+            <h3 class="sub-heading">Ocjene kupaca</h3>
+            <h1 class="heading">Komentari kupaca</h1>
+
+            <div class="swiper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/roke.jpg" alt="">
+                            <div class="user-info">
+                                <h3>ROKE</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Poslje probe hrane u novom restoranu,nakon što sam pojeo kebab,morao sam popiti 2 litra rakije.Nakon toga sam otišao u berbu gljiva i pojeo ih pa se otrovao.Zato nemojte nigdje jest osim u ovom savršenom restoranu</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pijano.jpg" alt="">
+                            <div class="user-info">
+                                <h3>PIJANO</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Nakon dobre hrane,moralo se zaliti sa litrom rakije i gajbom pive.Savršena usluga</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/nino.jpg" alt="">
+                            <div class="user-info">
+                                <h3>NINO</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Poslje skidanja zavoja s glave,mora se probat hrana u novom restoranu,zatim janjetina,onda zaljevanje pivom i rakijom.Kapa do poda</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/bruno.jpg" alt="">
+                            <div class="user-info">
+                                <h3>BRUNO</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Nakon savršenog miješanog mesa,ožujska piva i lula u mornarskoj odori.Nema bolje usluge</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/mlađo.jpg" alt="">
+                            <div class="user-info">
+                                <h3>MLAĐO</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Kad se proba roštilj i pizza mora se uzeti piva.Savršena hrana i najbolji restoran</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/drzdenareview.jpg" alt="">
+                            <div class="user-info">
+                                <h3>ZDENA</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Savršenstvo,nakon probanja porcije svih jela,morao sam naručiti i drugu turu,zatim popiti 5 litara rakije i na kraju zaspati na stolici.Veliki naklon i najbolja hrana ikad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order" id="order">
+            <h3 class="sub-heading">Naručite hranu</h3>
+            <h1 class="heading">Odaberite što želite naručiti</h1>
+
+            <form action="">
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Unesite ime</span>
+                        <input type="text" placeholder="Unesite ime...">
+                    </div>
+                    <div class="input">
+                        <span>Unesite broj</span>
+                        <input type="number" placeholder="Unesite broj...">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Vaša narudžba</span>
+                        <input type="text" placeholder="Unesite hranu...">
+                    </div>
+                    <div class="input">
+                        <span>Unesite priloge</span>
+                        <input type="text" placeholder="Unesite priloge koje želite...">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Unesite koliko želite narudžbi</span>
+                        <input type="number" placeholder="Unesite broj koliko želite narudžbi...">
+                    </div>
+                    <div class="input">
+                        <span>Kad želite narudžbu</span>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Unesite adresu</span>
+                        <textarea name="" placeholder="Unesite adresu narudžbe..." id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input">
+                        <span>Unesite poruku</span>
+                        <textarea name="" placeholder="Unesite detalje narudžbe..." id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="order now" class="btn">
+            </form>
+        </section>
+
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Lokacije: </h3>
+                    <a href="#">Mostar</a>
+                    <a href="#">Čapljina</a>
+                    <a href="#">Međugorje</a>
+                    <a href="#">Čitluk</a>
+                    <a href="#">Ljubuški</a>
+                    <a href="#">Široki Brijeg</a>
+                </div>
+                <div class="box">
+                    <h3>Linkovi: </h3>
+                    <a href="#">Početna</a>
+                    <a href="#">O nama</a>
+                    <a href="#">Meni</a>
+                    <a href="#">ocjene</a>
+                    <a href="#">Narudžbe</a>
+                </div>
+                <div class="box">
+                    <h3>Kontaktirajte nas: </h3>
+                    <a href="#">+38763xxxxxx</a>
+                    <a href="#">+38736xxxxxx</a>
+                    <a href="#">fastfoodhercegovina@hercegovina.com</a>
+                    <a href="#">Matice Hrvatske bb,Mostar</a>
+                </div>
+                <div class="box">
+                    <h3>Zapratite nas: </h3>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Tiktok</a>
+                    <a href="#">Linkedin</a>
+                </div>
+            </div>
+            <div class="credit">Copyright@2023 <span>FAST FOOD HERCEGOVINA</span></div>
+        </section>
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
